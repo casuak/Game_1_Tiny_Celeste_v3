@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace TinyCeleste._02_Modules._07_Physics._02_HSpeedUp
 {
-    public class HSpeedUp : EntityComponent
+    public class C_HSpeedUp : EntityComponent
     {
         // > 0 or < 0 (right or left) 目标速度
         public float targetSpeed;

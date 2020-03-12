@@ -31,8 +31,8 @@ namespace TinyCeleste._02_Modules._03_Player
         public C_Transform2DProxy transform2DProxy;
 
         // physics类通用组件
-        public HSpeedUp hSpeedUp;
-        public Gravity gravity;
+        public C_HSpeedUp hSpeedUp;
+        public C_Gravity gravity;
 
         // action
         public C_Climb climb;

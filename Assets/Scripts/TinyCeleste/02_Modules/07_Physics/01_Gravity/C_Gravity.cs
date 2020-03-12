@@ -4,9 +4,9 @@ using UnityEngine;
 
 namespace TinyCeleste._02_Modules._07_Physics._01_Gravity
 {
-    public class Gravity : EntityComponent
+    public class C_Gravity : EntityComponent
     {
-        public GlobalGravity.E_GravityType type = GlobalGravity.E_GravityType.Normal;
+        public S_GlobalGravity.E_GravityType type = S_GlobalGravity.E_GravityType.Normal;
 
         private C_Rigidbody2DProxy rigidbody2DWrapper;
 
@@ -18,7 +18,7 @@ namespace TinyCeleste._02_Modules._07_Physics._01_Gravity
         public void GravitySystem()
         {
             var deltaTime = Time.deltaTime;
-            var globalGravity = GlobalGravity.Instance;
+            var globalGravity = S_GlobalGravity.Instance;
 
             // 禁用或者全局重力单例不存在
             if (globalGravity == null) return;

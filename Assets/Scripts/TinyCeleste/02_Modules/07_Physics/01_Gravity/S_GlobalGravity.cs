@@ -4,7 +4,7 @@ using TinyCeleste._01_Framework;
 
 namespace TinyCeleste._02_Modules._07_Physics._01_Gravity
 {
-    public class GlobalGravity : EntitySingleton<GlobalGravity>
+    public class S_GlobalGravity : EntitySingleton<S_GlobalGravity>
     {
         public Dictionary<E_GravityType, GravityParams> dictionary;
         

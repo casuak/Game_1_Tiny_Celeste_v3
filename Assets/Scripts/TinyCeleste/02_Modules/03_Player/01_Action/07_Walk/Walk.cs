@@ -15,12 +15,12 @@ namespace TinyCeleste._02_Modules._03_Player._01_Action._07_Walk
         // 减速度
         public float deceleration = 80;
 
-        private HSpeedUp hSpeedUp;
+        private C_HSpeedUp hSpeedUp;
         private Command command;
 
         private void Awake()
         {
-            hSpeedUp = GetComponentNotNull<HSpeedUp>();
+            hSpeedUp = GetComponentNotNull<C_HSpeedUp>();
             command = GetComponentNotNull<Command>();
         }
 

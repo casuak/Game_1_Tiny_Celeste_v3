@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace TinyCeleste._02_Modules._07_Physics._04_ColliderChecker
 {
-    public static class Collider2DExtension
+    public static class EX_Collider2D
     {
         // 实时返回与当前碰撞体发生碰撞且具有acceptTags中的任意一个E_Tag的Tag列表
         public static List<C_ColliderTag> GetTags(this Collider2D collider, List<E_Tag> acceptTags)
