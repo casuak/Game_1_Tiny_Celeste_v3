@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="689a1b16-b749-4f60-9845-04cce101f1db" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/05_Strawberry/E_Strawberry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/07_SharpPoint/SharpPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform/C_LoopMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform/C_GrabOrReleaseChild.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform/E_MovePlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/C_FixedUpdateParticles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/06_DestructiveBlock/E_DestructiveBlock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/06_DestructiveBlock/C_BeDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/C_CameraRippleEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/S_MainCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/C_CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/E_Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/01_Framework/EntityComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/04_Hair/HairFlow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/04_Hair/HairSprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../unityshader/DefaultResourcesExtra/Sprites-Default.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/01_Animator/PlayerAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/03_FootDust/FootDust.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Light2D/Examples/Editor/BlockTilingInfoDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/07_GrabMovePlatform/GrabMovePlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/01_Common/C_EmptyBoxCollider2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/06_BugColliderChecker/BugColliderChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/02_Dash/DashCount.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/02_Dash/Dash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/C_CameraBound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/05_Jump/Jump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/01_Climb/C_ClimbEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/01_Climb/C_Climb.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/01_Climb/C_ClimbTimeBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/03_Death/Death.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/08_PlatformCollider/PlatformCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_SpriteAnimator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/S_Dust_Factory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/E_Dust.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/71/1d70a4e7/IEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/01_Event/I_OnDustDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/C_Dust_Effect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/C_Dust_LightProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F38C71C8-6AA6-4E29-9D4C-EA9FB7C715E1/63/c77e089f/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F38C71C8-6AA6-4E29-9D4C-EA9FB7C715E1/99/92aa629f/SerializeField.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F38C71C8-6AA6-4E29-9D4C-EA9FB7C715E1/8d/0a32651b/Vector2Int.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/06_Math/Tool_Grid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/C_CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F28216F-EA9F-453A-BF2E-05B770ED3EE4/a0/2a3ce55d/MathUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/Gravity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/GlobalGravity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/01_File/Tool_PathSetting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AE7E9345-8905-43E5-91D9-5E54B1EDD58B/8f/b3d46414/ParticleSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/02_HSpeedUp/HSpeedUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/01_File/Tool_GenTexture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/C_ColliderTag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F28216F-EA9F-453A-BF2E-05B770ED3EE4/75/04b98555/Editor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/C_ColliderChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/02_Game/Tool_Layer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/06_GM/GameManager_Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/Collider2DExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/02_Game/Tool_Input.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/04_Editor/Tool_Gizmos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Tilemap/Tiles/Weighted Random Tile/Scripts/WeightedRandomTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/04_Editor/Tool_GUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/08_Proxy/C_Rigidbody2DProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/05_ArrayList2/ArrayList2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/08_Proxy/C_AnimatorProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/03_WinExplorer/OpenFileName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/03_WinExplorer/OpenDirName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/08_Proxy/C_Transform2DProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Tilemap/Editor/PreviewUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/03_WinExplorer/LocalDialog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/01_Framework/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/03_Editor/UnityGUIStyles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/03_Editor/CustomAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/01_Framework/EntitySingleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/03_Editor/AlwaysDisplayBoxCollider2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/Extension/03_CSharp/EX_List.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/Extension/03_CSharp/EX_Dictionary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/Extension/02_Unity/EX_Vector2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/03_Editor/Editor/01_Inspector/FuckTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_EdgeCollider2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/Extension/02_Unity/EX_LayerMask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/C_NineSquare.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Rigidbody2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Transform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Camera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Transform_Editor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/E_Snow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/10_UI/01_Button/E_TextButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/10_UI/01_Button/E_ImageButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/06_GM/GameManager_Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/7.Shaders/SpritesNormal.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/MyTool/04_Editor/Tool_GUI_Editor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_MapElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map_Editor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/03_Utils/MapElementArray2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/S_MapManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/SelectTool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Eraser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Casuak/Plugins/01_PrefabTileMap/PrefabTileMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Pencil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Brush.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Light2D/Editor/LightingSystemCreationWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Property.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_SceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Operation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Light2D/Resources/Shaders/LightOverlay.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Light2D/Scripts/LightObstacleGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Light2D/Resources/Shaders/LightOverlaySingleCamera.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Field.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Inspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/C_SpringAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/C_EjectPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/C_AutoSpringType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/E_Spring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/02_Balloon/C_Balloon_ResumeDashCount.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/05_TransformTrack/C_PositionTrack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/02_Balloon/E_Balloon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/08_Platform/Platform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity 2019.3.9f6/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Text.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/E_Spring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/06_DestructiveBlock/E_DestructiveBlock.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/MapElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/C_MapElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_MapElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/S_MapManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/03_Interface/IOnSelectedColourChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/03_Interface/I_OnSelectedColourChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/I_OnSelectedColourChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/03_Utils/MapElementArray2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/C_CameraShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/C_CameraRippleEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/01_Climb/C_Climb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/01_Climb/C_ClimbEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/01_Climb/C_ClimbTimeBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/01_Interface/I_OnDustDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/I_OnDustDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/I_Dust_OnDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/C_Dust_LightProxy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/S_Dust_Factory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/02_Balloon/C_Balloon_ResumeDashCount.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/I_Map_OnSelectedColourChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/I_MapEditor_OnSelectedChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/I_MapEditor_OnSelectedColorChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/I_OnSelectedColorChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/IOnDustDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/01_Event/I_OnDustDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/04_Event/I_OnSelectedColorChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Brush.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Event.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/03_Editor/Editor/01_Inspector/FuckTransform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Casuak/MyTool/Tool_Math.cs" />
+        <option value="$PROJECT_DIR$/Assets/Casuak/MyTool/06_Math/Tool_Math.cs" />
+        <option value="$PROJECT_DIR$/Assets/Casuak/MyTool/06_Math/Tool_Grid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/E_Snow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/01_Common/C_NineSquare.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/03_Follow/C_Follow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/C_NineSquare.cs" />
+        <option value="$PROJECT_DIR$/Assets/test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/C_FixedUpdateParticles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/06_GM/GameManager_Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/C_BoundCollider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/C_CameraBound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/06_BugColliderChecker/BugColliderChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/01_Common/C_EmptyBoxCollider2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/08_Wrapper/C_Rigidbody2DProxy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/03_Follow/C_CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/S_MainCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/08_Proxy/C_Rigidbody2DProxy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/C_CameraFollow.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XpDEMqiQiCnTgMLZ0QGWKkQHBX" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="23136">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="23136" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="689a1b16-b749-4f60-9845-04cce101f1db" name="Default Changelist" comment="" />
+      <created>1581734029672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581734029672</updated>
+      <workItem from="1581734031706" duration="36481000" />
+      <workItem from="1581949868226" duration="48323000" />
+      <workItem from="1582083400962" duration="9101000" />
+      <workItem from="1582270098824" duration="5743000" />
+      <workItem from="1582705807071" duration="49051000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" />
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.2.bottom" />
+    <state width="1493" height="251" key="GridCell.Tab.2.bottom/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.2.center" />
+    <state width="1493" height="251" key="GridCell.Tab.2.center/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.2.left" />
+    <state width="1493" height="251" key="GridCell.Tab.2.left/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.2.right" />
+    <state width="1493" height="251" key="GridCell.Tab.2.right/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.3.bottom" />
+    <state width="1493" height="251" key="GridCell.Tab.3.bottom/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.3.center" />
+    <state width="1493" height="251" key="GridCell.Tab.3.center/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.3.left" />
+    <state width="1493" height="251" key="GridCell.Tab.3.left/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.3.right" />
+    <state width="1493" height="251" key="GridCell.Tab.3.right/1920.1080" />
+    <state x="82" y="108" key="SettingsEditor" />
+    <state x="82" y="108" key="SettingsEditor/1920.1080" />
+    <state x="388" y="76" width="760" height="672" key="find.popup" />
+    <state x="388" y="76" width="760" height="672" key="find.popup/1920.1080" />
+    <state x="425" y="187" key="run.anything.popup" />
+    <state x="425" y="187" key="run.anything.popup/1920.1080" />
+    <state x="431" y="145" width="672" height="680" key="search.everywhere.popup" />
+    <state x="431" y="145" width="672" height="680" key="search.everywhere.popup/1920.1080" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

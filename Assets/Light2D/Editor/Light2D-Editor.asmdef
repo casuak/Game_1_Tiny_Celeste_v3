@@ -1,0 +1,10 @@
+{
+    "name": "Light2D-Editor",
+    "references": [
+        "Light2D"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
