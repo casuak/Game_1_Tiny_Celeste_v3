@@ -1,7 +1,7 @@
-using Casuak.Extension._01_UnityComponent;
 using UnityEditor;
 using UnityEngine;
 using System.Reflection;
+using TinyCeleste._04_Extension._01_UnityComponent;
 
 namespace TinyCeleste._03_Editor.Editor._01_Inspector
 {

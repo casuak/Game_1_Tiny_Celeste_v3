@@ -1,4 +1,4 @@
-using Casuak.MyTool._04_Editor;
+using TinyCeleste._05_MyTool._04_Editor;
 #if UNITY_EDITOR
 using UnityEngine;
 

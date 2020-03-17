@@ -1,7 +1,7 @@
 
 using TinyCeleste._02_Modules._05_Env._01_Map._03_Utils;
+using TinyCeleste._04_Extension._01_UnityComponent;
 #if UNITY_EDITOR
-using Casuak.Extension._01_UnityComponent;
 using UnityEditor;
 using UnityEngine;
 

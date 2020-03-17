@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Casuak.MyTool._04_Editor;
+using TinyCeleste._05_MyTool._04_Editor;
 using UnityEngine;
 
 namespace TinyCeleste._03_Editor

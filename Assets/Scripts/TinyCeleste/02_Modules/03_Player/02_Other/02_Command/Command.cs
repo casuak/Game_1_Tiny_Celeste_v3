@@ -1,5 +1,5 @@
-using Casuak.MyTool._02_Game;
 using TinyCeleste._01_Framework;
+using TinyCeleste._05_MyTool._02_Game;
 using UnityEngine;
 
 namespace TinyCeleste._02_Modules._03_Player._02_Other._02_Command

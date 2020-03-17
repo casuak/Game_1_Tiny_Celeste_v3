@@ -2,18 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b06c806-b590-41fa-9e63-f5b043aba34e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_1_Tiny_Celeste_v3/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_1_Tiny_Celeste_v3/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTileMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_1_Tiny_Celeste_v3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_1_Tiny_Celeste_v3/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_1_Tiny_Celeste_v3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_1_Tiny_Celeste_v3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Platform (M).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Platform (M).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/07_Walk/Walk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/07_Walk/Walk.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/E_Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/E_Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/GlobalGravity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/S_GlobalGravity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/GlobalGravity.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/S_GlobalGravity.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/Gravity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/Gravity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/02_HSpeedUp/HSpeedUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/02_HSpeedUp/C_HSpeedUp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/02_HSpeedUp/HSpeedUp.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/02_HSpeedUp/C_HSpeedUp.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/Collider2DExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/EX_Collider2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/Collider2DExtension.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/EX_Collider2D.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/01_UnityComponent.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Camera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/01_UnityComponent/EX_Camera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Camera.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/01_UnityComponent/EX_Camera.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_EdgeCollider2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/01_UnityComponent/EX_EdgeCollider2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_EdgeCollider2D.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/01_UnityComponent/EX_EdgeCollider2D.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Rigidbody2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/01_UnityComponent/EX_Rigidbody2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Rigidbody2D.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/01_UnityComponent/EX_Rigidbody2D.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Transform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/01_UnityComponent/EX_Transform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Transform.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/01_UnityComponent/EX_Transform.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Transform_Editor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/01_UnityComponent/EX_Transform_Editor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/01_UnityComponent/EX_Transform_Editor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/01_UnityComponent/EX_Transform_Editor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/02_Unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/02_Unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/02_Unity/EX_LayerMask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/02_Unity/EX_LayerMask.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/02_Unity/EX_LayerMask.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/02_Unity/EX_LayerMask.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/02_Unity/EX_Vector2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/02_Unity/EX_Vector2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/02_Unity/EX_Vector2.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/02_Unity/EX_Vector2.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/03_CSharp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/03_CSharp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/03_CSharp/EX_Dictionary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/03_CSharp/EX_Dictionary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/03_CSharp/EX_Dictionary.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/03_CSharp/EX_Dictionary.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/03_CSharp/EX_List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/03_CSharp/EX_List.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Extension/03_CSharp/EX_List.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/03_CSharp/EX_List.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/01_File.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/01_File.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/01_File/Tool_GenTexture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/01_File/Tool_GenTexture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/01_File/Tool_GenTexture.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/01_File/Tool_GenTexture.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/01_File/Tool_PathSetting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/01_File/Tool_PathSetting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/01_File/Tool_PathSetting.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/01_File/Tool_PathSetting.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/02_Game.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/02_Game.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/02_Game/Tool_Input.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/02_Game/Tool_Input.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/02_Game/Tool_Input.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/02_Game/Tool_Input.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/02_Game/Tool_Layer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/02_Game/Tool_Layer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/02_Game/Tool_Layer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/02_Game/Tool_Layer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/03_WinExplorer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/03_WinExplorer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/03_WinExplorer/LocalDialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/03_WinExplorer/LocalDialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/03_WinExplorer/LocalDialog.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/03_WinExplorer/LocalDialog.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/03_WinExplorer/OpenDirName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/03_WinExplorer/OpenDirName.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/03_WinExplorer/OpenDirName.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/03_WinExplorer/OpenDirName.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/03_WinExplorer/OpenFileName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/03_WinExplorer/OpenFileName.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/03_WinExplorer/OpenFileName.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/03_WinExplorer/OpenFileName.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/04_Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/04_Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/04_Editor/Tool_GUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/04_Editor/Tool_GUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/04_Editor/Tool_GUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/04_Editor/Tool_GUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/04_Editor/Tool_GUI_Editor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/04_Editor/Tool_GUI_Editor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/04_Editor/Tool_GUI_Editor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/04_Editor/Tool_GUI_Editor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/04_Editor/Tool_Gizmos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/04_Editor/Tool_Gizmos.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/04_Editor/Tool_Gizmos.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/04_Editor/Tool_Gizmos.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/05_ArrayList2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/05_ArrayList2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/05_ArrayList2/ArrayList2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/05_ArrayList2/ArrayList2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/05_ArrayList2/ArrayList2.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/05_ArrayList2/ArrayList2.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/06_Math.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/06_Math.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/06_Math/Tool_Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/06_Math/Tool_Grid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/MyTool/06_Math/Tool_Grid.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/06_Math/Tool_Grid.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Plugins/01_PrefabTileMap.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Plugins/01_PrefabTileMap/PrefabTileMap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Casuak/Plugins/01_PrefabTileMap/PrefabTileMap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTileMap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/C_CameraShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/02_Camera/C_CameraShake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/04_Face/Face.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/01_Action/04_Face/Face.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/02_Command/Command.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/02_Command/Command.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/04_Hair/HairFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/04_Hair/HairFlow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/06_BugColliderChecker/BugColliderChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/06_BugColliderChecker/BugColliderChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/E_Dust.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/01_Dust/E_Dust.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/C_NineSquare.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/C_NineSquare.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Operation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Operation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Property.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Property.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform/C_LoopMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform/C_LoopMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/EX_Collider2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/EX_Collider2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/05_TransformTrack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/05_TransformTrack/C_PositionTrack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/05_TransformTrack/C_PositionTrack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/08_Proxy/C_Transform2DProxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/08_Proxy/C_Transform2DProxy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/10_UI/01_Button/E_ImageButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/10_UI/01_Button/E_ImageButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/10_UI/01_Button/E_TextButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/10_UI/01_Button/E_TextButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/03_Editor/AlwaysDisplayBoxCollider2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/03_Editor/AlwaysDisplayBoxCollider2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/03_Editor/Editor/01_Inspector/FuckTransform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/03_Editor/Editor/01_Inspector/FuckTransform.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,19 +95,96 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/EX_Collider2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F28216F-EA9F-453A-BF2E-05B770ED3EE4/d8/04cc9029/SceneView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/C_ColliderChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Utility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTileMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectEraser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush_Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Pencil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Brush.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/03_Utils/MapElementArray2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/02_Unity/EX_Vector2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_GUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Inspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabPalette.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/03_PrefabTileMapEditor/PrefabTileMapEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_SceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_ExampleTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_SceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectPencil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Field.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/01_File.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/06_BugColliderChecker/BugColliderChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/02_Unity/EX_Vector2Int.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/06_Math/Tool_Grid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Eraser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/C_Gravity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/S_GlobalGravity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTileArray2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectBrush.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/03_PrefabTileMapEditor/PrefabTileMapEditor_SceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/02_HSpeedUp/C_HSpeedUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_MapElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pencil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/C_ColliderTag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/01_Common/C_EmptyBoxCollider2D.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/EX_Collider2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/02_HSpeedUp/C_HSpeedUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/S_GlobalGravity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/C_Gravity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Casuak/Plugins/01_PrefabTileMap/PrefabPaletteWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Casuak/Plugins/01_PrefabTileMap/PrefabTileMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Casuak/Plugins/01_PrefabTileMap/PrefabTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/tr.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/06_BugColliderChecker/BugColliderChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/EX_Collider2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTileMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/06_Math/Tool_Grid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTileMap_SceneGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTileMapEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTileMapEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/03_PrefabTileMapEditor/PrefabTileMapEditor_SceneGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/03_PrefabTileMapEditor/PrefabTileMapEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabPalette.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/PrefabTileArray2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_ExampleTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Func.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Event.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Utility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_GUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTileArray2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/RectEraser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/RectPencil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/RectBrush.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/02_Unity/EX_Vector2Int.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pointer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Eraser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pencil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectEraser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush_Event.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectBrush.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Field.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectPencil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTileMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTileArray2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_SceneGUI.cs" />
       </list>
     </option>
   </component>
@@ -50,8 +196,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1Z0r5MrTj6uPFcSZcm6lPvwd47v" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -80,10 +229,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="21260">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="21260" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -98,7 +247,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583986670021</updated>
-      <workItem from="1583986677120" duration="908000" />
+      <workItem from="1583986677120" duration="17333000" />
+      <workItem from="1584253955431" duration="44562000" />
     </task>
     <servers />
   </component>
@@ -112,7 +262,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -120,6 +272,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" />
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.2.bottom" />
+    <state width="1493" height="251" key="GridCell.Tab.2.bottom/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.2.center" />
+    <state width="1493" height="251" key="GridCell.Tab.2.center/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.2.left" />
+    <state width="1493" height="251" key="GridCell.Tab.2.left/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.2.right" />
+    <state width="1493" height="251" key="GridCell.Tab.2.right/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.3.bottom" />
+    <state width="1493" height="251" key="GridCell.Tab.3.bottom/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.3.center" />
+    <state width="1493" height="251" key="GridCell.Tab.3.center/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.3.left" />
+    <state width="1493" height="251" key="GridCell.Tab.3.left/1920.1080" />
+    <state width="1493" height="251" key="GridCell.Tab.3.right" />
+    <state width="1493" height="251" key="GridCell.Tab.3.right/1920.1080" />
+    <state x="431" y="145" width="672" height="680" key="search.everywhere.popup" />
+    <state x="431" y="145" width="672" height="680" key="search.everywhere.popup/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

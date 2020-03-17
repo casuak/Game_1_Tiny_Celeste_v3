@@ -1,8 +1,8 @@
-using Casuak.Extension._01_UnityComponent;
 using TinyCeleste._01_Framework;
 using TinyCeleste._02_Modules._03_Player._01_Action._01_Climb;
 using TinyCeleste._02_Modules._03_Player._02_Other._02_Command;
 using TinyCeleste._02_Modules._08_Proxy;
+using TinyCeleste._04_Extension._01_UnityComponent;
 
 namespace TinyCeleste._02_Modules._03_Player._01_Action._04_Face
 {

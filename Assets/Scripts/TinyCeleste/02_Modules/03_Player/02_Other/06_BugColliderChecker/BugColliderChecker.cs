@@ -1,9 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using Casuak.Extension;
-using Casuak.Extension._02_Unity;
 using TinyCeleste._01_Framework;
 using TinyCeleste._02_Modules._07_Physics._04_ColliderChecker;
+using TinyCeleste._04_Extension._02_Unity;
 using UnityEngine;
 
 namespace TinyCeleste._02_Modules._03_Player._02_Other._06_BugColliderChecker

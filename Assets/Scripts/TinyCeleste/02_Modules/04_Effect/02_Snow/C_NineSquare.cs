@@ -1,6 +1,6 @@
-using Casuak.Extension._01_UnityComponent;
-using Casuak.MyTool._06_Math;
 using TinyCeleste._01_Framework;
+using TinyCeleste._04_Extension._01_UnityComponent;
+using TinyCeleste._05_MyTool._06_Math;
 using UnityEngine;
 
 namespace TinyCeleste._02_Modules._04_Effect._02_Snow
@@ -41,7 +41,7 @@ namespace TinyCeleste._02_Modules._04_Effect._02_Snow
             var _center = Vector2.zero;
             var _gridSize = Vector2.one * squareSize;
             var _gridGap = Vector2.zero;
-            var center = Tool_Grid.GetMostClosedSquareCenter(_pos0, _center, _gridSize, _gridGap);
+            var center = Tool_Grid.WorldToGridCenter(_pos0, _center, _gridSize, _gridGap);
             for (int y = -1; y <= 1; y++)
             {
                 for (int x = -1; x <= 1; x++)
@@ -62,7 +62,7 @@ namespace TinyCeleste._02_Modules._04_Effect._02_Snow
             var _center = Vector2.zero;
             var _gridSize = Vector2.one * squareSize;
             var _gridGap = Vector2.zero;
-            var center = Tool_Grid.GetMostClosedSquareCenter(_pos0, _center, _gridSize, _gridGap);
+            var center = Tool_Grid.WorldToGridCenter(_pos0, _center, _gridSize, _gridGap);
             for (int y = -1; y <= 1; y++)
             {
                 for (int x = -1; x <= 1; x++)

@@ -1,6 +1,6 @@
 using System;
-using Casuak.Extension._01_UnityComponent;
 using TinyCeleste._01_Framework;
+using TinyCeleste._04_Extension._01_UnityComponent;
 using UnityEngine;
 using Random = UnityEngine.Random;
 

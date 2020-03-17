@@ -1,6 +1,6 @@
-using Casuak.Extension._01_UnityComponent;
 using TinyCeleste._01_Framework;
 using TinyCeleste._02_Modules._08_Proxy;
+using TinyCeleste._04_Extension._01_UnityComponent;
 using UnityEngine;
 
 namespace TinyCeleste._02_Modules._05_Env._04_MovePlatform

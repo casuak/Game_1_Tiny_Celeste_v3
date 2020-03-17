@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using Casuak.MyTool;
-using Casuak.MyTool._06_Math;
 using TinyCeleste._01_Framework;
+using TinyCeleste._05_MyTool._06_Math;
 using UnityEngine;
 
 namespace TinyCeleste._02_Modules._05_Env._01_Map
@@ -35,7 +34,7 @@ namespace TinyCeleste._02_Modules._05_Env._01_Map
         // 将坐标归入邻近的方块中心坐标
         public Vector2 WorldToSquareCenter(Vector2 worldPos)
         {
-            return Tool_Grid.GetMostClosedSquareCenter(worldPos, gridCenter, gridSize, gridGap);
+            return Tool_Grid.WorldToGridCenter(worldPos, gridCenter, gridSize, gridGap);
         }
     }
 }

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Casuak.Extension._01_UnityComponent;
 using TinyCeleste._01_Framework;
 using TinyCeleste._02_Modules._04_Effect._01_Dust._01_Event;
+using TinyCeleste._04_Extension._01_UnityComponent;
 using UnityEngine;
 
 namespace TinyCeleste._02_Modules._04_Effect._01_Dust

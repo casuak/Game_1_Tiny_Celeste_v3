@@ -4,7 +4,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace TinyCeleste._02_Modules._01_UI._01_Button
+namespace TinyCeleste._02_Modules._10_UI._01_Button
 {
     public class E_TextButton : Entity, IPointerEnterHandler, IPointerClickHandler, IPointerExitHandler,
         IPointerDownHandler, IPointerUpHandler

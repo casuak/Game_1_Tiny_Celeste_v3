@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using Casuak.Extension._01_UnityComponent;
 using TinyCeleste._01_Framework;
 using TinyCeleste._02_Modules._03_Player._01_Action._02_Dash;
 using TinyCeleste._02_Modules._03_Player._01_Action._04_Face;
 using TinyCeleste._02_Modules._08_Proxy;
+using TinyCeleste._04_Extension._01_UnityComponent;
 using UnityEngine;
 
 namespace TinyCeleste._02_Modules._03_Player._02_Other._04_Hair
