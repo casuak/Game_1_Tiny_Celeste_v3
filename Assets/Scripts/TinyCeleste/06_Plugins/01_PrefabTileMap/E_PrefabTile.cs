@@ -50,7 +50,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap
         /// </summary>
         /// <param name="gridPos"></param>
         /// <returns></returns>
-        public E_PrefabTile SetGridPos(Vector2Int gridPos)
+        public E_PrefabTile SetCellPos(Vector2Int gridPos)
         {
             this.gridPos = gridPos;
             transform.SetPos2D(map.GridToWorld(gridPos));
@@ -72,6 +72,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap
         /// <returns></returns>
         public static E_PrefabTile Create(E_PrefabTile prefab)
         {
+            if (prefab == null) return null;
             return Instantiate(prefab);
         }
 

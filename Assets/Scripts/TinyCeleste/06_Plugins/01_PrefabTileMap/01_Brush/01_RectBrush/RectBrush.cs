@@ -42,7 +42,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush._01_RectBrush
         /// </summary>
         public override void OnMouseDown()
         {
-            cornerBegin = map.mouseGridPos;
+            cornerBegin = map.mouseCellPos;
         }
 
         /// <summary>
@@ -53,6 +53,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush._01_RectBrush
             if (cancel)
             {
                 cancel = false;
+                HideOrShowLastCoverTiles(false);
                 return;
             }
 
@@ -87,7 +88,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush._01_RectBrush
         /// </summary>
         public override void OnMouseDowning()
         {
-            cornerEnd = map.mouseGridPos;
+            cornerEnd = map.mouseCellPos;
             var leftBottom = new Vector2Int();
             var rightTop = new Vector2Int();
             EX_Vector2Int.TwoCorner(ref leftBottom, ref rightTop, cornerBegin, cornerEnd);
@@ -97,6 +98,59 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush._01_RectBrush
             var _size = _rightTop - _leftBottom;
             Handles.color = wireframeColor;
             Handles.DrawWireCube(_center, _size);
+        }
+
+        /// <summary>
+        /// 上一帧覆盖范围内的Tile
+        /// </summary>
+        private E_PrefabTile[][] lastCoverTiles;
+
+        /// <summary>
+        /// 鼠标网格位置发生变化时触发
+        /// 触发频率比OnMouseDowning更低
+        /// 对性能敏感的操作可放置于此
+        /// </summary>
+        public override void OnMouseCellPosChange()
+        {
+            OnMouseDowning();
+            // 释放上一帧隐藏的Tile
+            HideOrShowLastCoverTiles(false);
+
+            // 暂时隐藏当前Rect覆盖位置地图中的的Tile
+            var cellPositions = EX_Vector2Int.Range(cornerBegin, cornerEnd);
+            lastCoverTiles = new E_PrefabTile[cellPositions.Length][];
+            for (int y = 0; y < cellPositions.Length; y++)
+            {
+                lastCoverTiles[y] = new E_PrefabTile[cellPositions[y].Length];
+                for (int x = 0; x < cellPositions[y].Length; x++)
+                {
+                    lastCoverTiles[y][x] = map.GetTileByCellPos(cellPositions[y][x]);
+                }
+            }
+
+            HideOrShowLastCoverTiles(true);
+        }
+
+        protected void HideOrShowLastCoverTiles(bool hide)
+        {
+            if (lastCoverTiles == null) return;
+            for (int y = 0; y < lastCoverTiles.Length; y++)
+            {
+                for (int x = 0; x < lastCoverTiles[y].Length; x++)
+                {
+                    if (lastCoverTiles[y][x] != null)
+                    {
+                        if (hide)
+                        {
+                            lastCoverTiles[y][x].TempHide();
+                        }
+                        else
+                        {
+                            lastCoverTiles[y][x].TempShow();
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -6,5 +6,10 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._02_PrefabPaletteWindow
         {
             allMaps = FindObjectsOfType<E_PrefabTileMap>();
         }
+
+        public void ExitEditMode()
+        {
+            OnExitEditMode();
+        }
     }
 }

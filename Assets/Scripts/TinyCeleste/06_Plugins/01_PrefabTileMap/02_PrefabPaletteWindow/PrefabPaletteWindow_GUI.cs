@@ -111,6 +111,8 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._02_PrefabPaletteWindow
             {
                 currentBrush?.OnExit();
                 currentMapIndex = newMapIndex;
+                currentBrush?.OnEnter();
+                SceneView.RepaintAll();
             }
         }
 
@@ -119,6 +121,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._02_PrefabPaletteWindow
         /// </summary>
         private void GUI_ChooseTile()
         {
+            if (prefabTiles == null) return;
             var contents = new GUIContent[prefabTiles.Count];
             for (int i = 0; i < prefabTiles.Count; i++)
             {
@@ -130,7 +133,12 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._02_PrefabPaletteWindow
             int height = yCount * 25;
             GUILayout.Space(3);
             GUILayout.BeginHorizontal();
+            EditorGUI.BeginChangeCheck();
             currentTileIndex = GUILayout.SelectionGrid(currentTileIndex, contents, xCount, GUILayout.Height(height));
+            if (EditorGUI.EndChangeCheck())
+            {
+                OnTileChanged();
+            }
             GUILayout.EndHorizontal();
         }
     }

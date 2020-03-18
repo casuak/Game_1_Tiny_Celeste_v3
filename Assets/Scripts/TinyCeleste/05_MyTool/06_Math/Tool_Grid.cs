@@ -39,7 +39,7 @@ namespace TinyCeleste._05_MyTool._06_Math
             Vector3 pos1 = wToC.MultiplyPoint(pos0);
 
             // 转移到最近的中心坐标
-            pos1 = new Vector2((int) pos1.x + 0.5f * IsPositve(pos1.x), (int) pos1.y + 0.5f * IsPositve(pos1.y));
+            pos1 = new Vector2((int) pos1.x + 0.5f * IsPositive(pos1.x), (int) pos1.y + 0.5f * IsPositive(pos1.y));
 
             // 转移回世界空间
             return cToW.MultiplyPoint(pos1);
@@ -49,22 +49,22 @@ namespace TinyCeleste._05_MyTool._06_Math
         /// 返回世界坐标在方格坐标中的坐标
         /// </summary>
         /// <param name="pos0">世界坐标</param>
-        /// <param name="gridCenter"></param>
-        /// <param name="gridSize"></param>
-        /// <param name="gridGap"></param>
+        /// <param name="cellCenter"></param>
+        /// <param name="cellSize"></param>
+        /// <param name="cellGap"></param>
         /// <returns></returns>
-        public static Vector2Int WorldToGrid(Vector2 pos0, Vector2 gridCenter, Vector2 gridSize, Vector2 gridGap)
+        public static Vector2Int WorldToGrid(Vector2 pos0, Vector2 cellCenter, Vector2 cellSize, Vector2 cellGap)
         {
-            gridSize += gridGap;
+            cellSize += cellGap;
             // XXX 偏移量归入一个格子大小的正负值
-            gridCenter = new Vector2(gridCenter.x % gridSize.x, gridCenter.y % gridSize.y);
+//            cellCenter = new Vector2(cellCenter.x % cellSize.x, cellCenter.y % cellSize.y);
             // 有gap时需要修正偏移量
-            gridCenter -= gridGap * 0.5f;
+            cellCenter -= cellGap * 0.5f;
 
-            Vector4 c0 = new Vector4(gridSize.x, 0, 0, 0);
-            Vector4 c1 = new Vector4(0, gridSize.y, 0, 0);
+            Vector4 c0 = new Vector4(cellSize.x, 0, 0, 0);
+            Vector4 c1 = new Vector4(0, cellSize.y, 0, 0);
             Vector4 c2 = new Vector4(0, 0, 1, 0);
-            Vector4 c3 = new Vector4(gridCenter.x, gridCenter.y, 0, 1);
+            Vector4 c3 = new Vector4(cellCenter.x, cellCenter.y, 0, 1);
             // 子空间到世界空间的变换矩阵
             Matrix4x4 cToW = new Matrix4x4(c0, c1, c2, c3);
             // 世界空间到子空间的变换矩阵
@@ -72,10 +72,10 @@ namespace TinyCeleste._05_MyTool._06_Math
 
             // 将坐标变换到子空间
             Vector3 pos1 = wToC.MultiplyPoint(pos0);
-            
-            // 转移到最近的中心坐标
-            pos1 = new Vector2((int) pos1.x + 0.5f * IsPositve(pos1.x), (int) pos1.y + 0.5f * IsPositve(pos1.y));
 
+            // 转移到最近的中心坐标
+            pos1 = new Vector2((int) pos1.x + 0.5f * IsPositive(pos1.x), (int) pos1.y + 0.5f * IsPositive(pos1.y));
+            
             return new Vector2Int(Mathf.RoundToInt(pos1.x - 0.5f), Mathf.RoundToInt(pos1.y - 0.5f));
         }
 
@@ -104,7 +104,7 @@ namespace TinyCeleste._05_MyTool._06_Math
             return cToW.MultiplyPoint(pos0);
         }
 
-        public static int IsPositve(float a)
+        public static int IsPositive(float a)
         {
             return a > 0 ? 1 : -1;
         }

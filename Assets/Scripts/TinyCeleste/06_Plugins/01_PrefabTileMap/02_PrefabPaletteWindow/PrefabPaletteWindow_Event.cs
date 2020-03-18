@@ -9,6 +9,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._02_PrefabPaletteWindow
         /// </summary>
         private void OnEnterEditMode()
         {
+            isMouseDowning = false;
             Tools.current = Tool.None;
         }
 
@@ -17,6 +18,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._02_PrefabPaletteWindow
         /// </summary>
         private void OnExitEditMode()
         {
+            isMouseDowning = false;
             currentBrush?.OnExit();
             currentBrush = null;
             Repaint();

@@ -80,7 +80,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush
         /// <summary>
         /// 鼠标的网格坐标发生变更，且此时鼠标左键处于按下状态
         /// </summary>
-        public virtual void OnMouseGridPosChange()
+        public virtual void OnMouseCellPosChange()
         {
         }
     }

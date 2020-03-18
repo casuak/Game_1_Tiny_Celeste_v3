@@ -14,7 +14,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap
         /// 实际存储的数组（因unity序列化限制，用一维数组存储）
         /// </summary>
         [SerializeField]
-        private E_PrefabTile[] array;
+        public E_PrefabTile[] array;
 
         /// <summary>
         /// 二维数组的大小

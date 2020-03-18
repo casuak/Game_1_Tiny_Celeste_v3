@@ -67,10 +67,10 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush
         /// </summary>
         public void TriggerMouseCellPosChange()
         {
-            var mouseGridPos = map.mouseGridPos;
+            var mouseGridPos = map.mouseCellPos;
             if (mouseGridPos != lastMouseGridPos)
             {
-                if (window.isMouseDowning) OnMouseGridPosChange();
+                if (window.isMouseDowning) OnMouseCellPosChange();
                 lastMouseGridPos = mouseGridPos;
             }
         }

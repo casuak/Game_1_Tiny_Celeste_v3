@@ -85,8 +85,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._02_PrefabPaletteWindow
             EditorGUILayout.BeginHorizontal();
             GUILayout.Label("Is mouse downing: " + isMouseDowning, UnityGUIStyles.toolbarButton);
             EditorGUILayout.EndHorizontal();
-            
-            
+
             GUI_BrushToolBar();
             GUILayout.Space(2);
             EditorGUILayout.BeginHorizontal();

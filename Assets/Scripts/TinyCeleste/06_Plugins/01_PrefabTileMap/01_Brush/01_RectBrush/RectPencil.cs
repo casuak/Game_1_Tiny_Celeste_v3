@@ -1,30 +1,32 @@
-using System;
 using TinyCeleste._04_Extension._02_Unity;
 using UnityEngine;
-using Object = UnityEngine.Object;
 
 namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush._01_RectBrush
 {
     public class RectPencil : RectBrush
     {
+        /// <summary>
+        /// 笔头
+        /// </summary>
+        private E_PrefabTile pencilHead;
+
+        /// <summary>
+        /// 上一次笔头隐藏的Tile
+        /// </summary>
+        private E_PrefabTile lastCoverTile;
+
+        /// <summary>
+        /// 隐藏或显示笔头
+        /// </summary>
+        /// <param name="hide"></param>
+        private void HideOrShowPencilHead(bool hide)
+        {
+            pencilHead.gameObject.SetActive(!hide);
+        }
+
         public RectPencil()
         {
             icon = "Grid.FillTool";
-        }
-
-        /// <summary>
-        /// 清空临时二维数组内的tile
-        /// </summary>
-        private void ClearTempTileArray2D()
-        {
-            var array = window.tempTileArray2D;
-            for (int y = 0; y < array.Length; y++)
-            {
-                for (int x = 0; x < array[y].Length; x++)
-                {
-                    Object.Destroy(array[y][x]);
-                }
-            }
         }
 
         /// <summary>
@@ -36,17 +38,73 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush._01_RectBrush
             base.OnMouseDown();
             // 初始化临时存储数组
             window.tempTileArray2D = new E_PrefabTile[1][];
-            window.tempTileArray2DOffset = map.mouseGridPos;
+            window.tempTileArray2DOffset = map.mouseCellPos;
             window.tempTileArray2D[0] = new[]
             {
-                E_PrefabTile.Create(window.currentTile).SetMap(map).SetGridPos(map.mouseGridPos)
+                E_PrefabTile.Create(window.currentTile).SetMap(map).SetCellPos(map.mouseCellPos)
             };
         }
 
-        public override void OnMouseGridPosChange()
+        public override void Update()
         {
-            // 绘制范围网格以及更新cornerEnd
-            base.OnMouseDowning();
+            base.Update();
+            // 鼠标左键无按下时，显示笔头
+            HideOrShowPencilHead(window.isMouseDowning);
+            // 更新笔头位置
+            if (pencilHead != null)
+                pencilHead.SetCellPos(map.mouseCellPos);
+            // 隐藏笔头位置的地图元素
+            if (!window.isMouseDowning)
+            {
+                if (lastCoverTile != null)
+                    lastCoverTile.TempShow();
+                lastCoverTile = map.GetTileByCellPos(map.mouseCellPos);
+                if (lastCoverTile != null)
+                    lastCoverTile.TempHide();
+            }
+        }
+
+        public override void OnEnter()
+        {
+            ReGeneratePencilHead();
+        }
+
+        public override void OnExit()
+        {
+            DestroyPencilHead();
+        }
+
+        /// <summary>
+        /// 重新生成笔头
+        /// </summary>
+        public override void OnTileChanged()
+        {
+            ReGeneratePencilHead();
+        }
+
+        /// <summary>
+        /// 重新生成笔头
+        /// </summary>
+        private void ReGeneratePencilHead()
+        {
+            pencilHead = E_PrefabTile.Create(window.currentTile)?.SetMap(map).SetCellPos(map.mouseCellPos);
+        }
+
+        /// <summary>
+        /// 摧毁笔头
+        /// </summary>
+        private void DestroyPencilHead()
+        {
+            if (pencilHead != null)
+                pencilHead.DestroySelfImmediate();
+        }
+
+        /// <summary>
+        /// 鼠标网格位置发生变化时更新
+        /// </summary>
+        public override void OnMouseCellPosChange()
+        {
+            base.OnMouseCellPosChange();
             // 获取两个角落
             var leftBottom = new Vector2Int();
             var rightTop = new Vector2Int();
@@ -82,7 +140,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush._01_RectBrush
                     {
                         var oldTile = oldArray[arrayIndex.y][arrayIndex.x];
                         tileArray2D[y][x] = oldTile;
-                        oldTile.SetGridPos(gridPos);
+                        oldTile.SetCellPos(gridPos);
                         oldUseful[arrayIndex.y][arrayIndex.x] = true;
                     }
                     // 生成未有部分
@@ -90,7 +148,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush._01_RectBrush
                     {
                         tileArray2D[y][x] = E_PrefabTile.Create(window.currentTile);
                         tileArray2D[y][x].SetMap(window.currentMap)
-                            .SetGridPos(gridPos);
+                            .SetCellPos(gridPos);
                     }
                 }
             }
@@ -121,7 +179,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush._01_RectBrush
             var arrayIndex = cellPos - window.tempTileArray2DOffset;
             var tile = window.tempTileArray2D[arrayIndex.y][arrayIndex.x];
             window.tempTileArray2D[arrayIndex.y][arrayIndex.x] = null;
-            map.tileArray2D.GetByCoord(cellPos)?.DestroySelfImmediate();
+            map.DestroyTileImmediate(cellPos);
             map.tileArray2D.SetByCoord(cellPos, tile);
         }
 
