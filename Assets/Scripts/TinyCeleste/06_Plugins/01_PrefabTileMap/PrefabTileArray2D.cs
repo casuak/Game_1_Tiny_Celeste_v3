@@ -20,7 +20,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap
         /// 二维数组的大小
         /// </summary>
         [SerializeField]
-        public Vector2Int capacity { private set; get; }
+        public Vector2Int capacity;
 
         /// <summary>
         /// 外部原点坐标对应的数组索引

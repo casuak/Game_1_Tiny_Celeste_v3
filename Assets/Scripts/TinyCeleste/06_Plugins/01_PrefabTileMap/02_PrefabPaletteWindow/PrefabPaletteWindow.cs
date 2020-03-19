@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using TinyCeleste._03_Editor;
 using TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush;
@@ -19,9 +18,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._02_PrefabPaletteWindow
         /// </summary>
         private void OnEnable()
         {
-            SceneView.duringSceneGui += OnSceneGUI;
-            Debug.Log("On enable prefab palette window.");
-            ShowWindow();
+            Init();
         }
 
         /// <summary>
@@ -30,7 +27,6 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._02_PrefabPaletteWindow
         private void OnDestroy()
         {
             SceneView.duringSceneGui -= OnSceneGUI;
-            Debug.Log("On destroy prefab palette window.");
         }
 
         /// <summary>
@@ -39,28 +35,31 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._02_PrefabPaletteWindow
         [MenuItem("Casuak/Prefab Tile Map/Palette Window")]
         private static void ShowWindow()
         {
-            Debug.Log("On show window.");
-            // 单例赋值
-            var window = GetWindow<PrefabPaletteWindow>();
-            
+            GetWindow<PrefabPaletteWindow>().Init();
+        }
+
+        private void Init()
+        {
             // 初始化窗口属性
-            window.titleContent = new GUIContent("Prefab Palette");
-            window.scrollPosition = Vector2.zero;
+            titleContent = new GUIContent("Prefab Palette");
+            scrollPosition = Vector2.zero;
             // 初始化笔刷
-            window.brushList = new List<Brush>()
+            brushList = new List<Brush>()
             {
                 new Pencil(), new Eraser(), new RectPencil(), new RectEraser(), new Pointer()
             };
-            foreach (var brush in window.brushList)
+            foreach (var brush in brushList)
             {
-                brush.SetWindow(window);
+                brush.SetWindow(this);
             }
-            window.currentBrush = null;
-            window.currentMapIndex = 0;
-            window.currentPaletteIndex = 0;
-            window.currentTileIndex = 0;
+            currentBrush = null;
+            currentMapIndex = 0;
+            currentPaletteIndex = 0;
+            currentTileIndex = 0;
+            SceneView.duringSceneGui -= OnSceneGUI;
+            SceneView.duringSceneGui += OnSceneGUI;
         }
-
+        
         /// <summary>
         /// 更新
         /// </summary>
@@ -82,9 +81,9 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._02_PrefabPaletteWindow
         {
             EditorGUILayout.BeginVertical();
 
-            EditorGUILayout.BeginHorizontal();
-            GUILayout.Label("Is mouse downing: " + isMouseDowning, UnityGUIStyles.toolbarButton);
-            EditorGUILayout.EndHorizontal();
+//            EditorGUILayout.BeginHorizontal();
+//            GUILayout.Label("Is mouse downing: " + isMouseDowning, UnityGUIStyles.toolbarButton);
+//            EditorGUILayout.EndHorizontal();
 
             GUI_BrushToolBar();
             GUILayout.Space(2);

@@ -1,5 +1,6 @@
 using TinyCeleste._01_Framework;
 using TinyCeleste._04_Extension._01_UnityComponent;
+using UnityEditor;
 using UnityEngine;
 
 namespace TinyCeleste._06_Plugins._01_PrefabTileMap
@@ -73,7 +74,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap
         public static E_PrefabTile Create(E_PrefabTile prefab)
         {
             if (prefab == null) return null;
-            return Instantiate(prefab);
+            return (E_PrefabTile) PrefabUtility.InstantiatePrefab(prefab);
         }
 
         /// <summary>

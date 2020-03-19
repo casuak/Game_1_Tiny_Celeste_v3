@@ -87,6 +87,7 @@ namespace TinyCeleste._06_Plugins._01_PrefabTileMap._01_Brush._01_RectBrush
         /// </summary>
         private void ReGeneratePencilHead()
         {
+            DestroyPencilHead();
             pencilHead = E_PrefabTile.Create(window.currentTile)?.SetMap(map).SetCellPos(map.mouseCellPos);
         }
 

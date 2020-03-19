@@ -12,7 +12,7 @@ namespace TinyCeleste._02_Modules._04_Effect._02_Snow
             nineSquare.S_UpdateNineSnowBlock();
         }
 
-        private void OnDrawGizmos()
+        private void OnDrawGizmosSelected()
         {
             nineSquare.S_DrawNineSquare();
         }

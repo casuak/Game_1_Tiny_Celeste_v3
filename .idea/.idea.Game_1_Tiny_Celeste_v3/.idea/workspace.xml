@@ -2,27 +2,740 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b06c806-b590-41fa-9e63-f5b043aba34e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/01_Platform/E_Platform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/07_SharpPoint/E_SharpPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_1_Tiny_Celeste_v3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_1_Tiny_Celeste_v3/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_1_Tiny_Celeste_v3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_1_Tiny_Celeste_v3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Example Prefab Tile.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Example Prefab Tile.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab Palette.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab Palette.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PrefabTileMap Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PrefabTileMap Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/06_Math/Tool_Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/06_Math/Tool_Grid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectBrush.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectBrush.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectEraser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectEraser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Glass Block.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Glass Block.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Hair Flow.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Hair Flow.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Item.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Player.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Player.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Polygon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Polygon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Ring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Ring.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Snow Block.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Snow Block.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Start Page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Start Page.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/Triangle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/UI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/UI.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/apple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/atlas2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.Sprites/atlas2.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/01.Effect.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/01.Effect/Dust Effect (E).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/01.Effect/Dust Effect (E).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/01.Effect/Snow Particles Screen.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/01.Effect/Snow Particles Screen.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/01.Effect/Snow Particles World.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/01.Effect/Snow Particles World.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Balloon (E).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Balloon (E).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Destructive Block (E).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Destructive Block (E).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Move Platform (E).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Move Platform (E).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Platform (M).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Platform (M).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Sharp Point (M).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Sharp Point (M).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Spring.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Spring/Spring In (M).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Spring/Spring In (M).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Spring/Spring Out (M).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Spring/Spring Out (M).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Strawberry (M).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/2.Prefabs/02.Env/Strawberry (M).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Balloon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Balloon/Float.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Balloon/Float.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Balloon/_Balloon.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Balloon/_Balloon.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Dust.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Dust/DustEffect.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Dust/DustEffect.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Dust/_Dust.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Dust/_Dust.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Climb.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Climb.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Idle2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Idle2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Jump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Jump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Slide.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/Slide.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/_Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Player/_Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Spring.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Spring/Eject 2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Spring/Eject 2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Spring/Eject.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Spring/Eject.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Spring/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Spring/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Spring/_Spring.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/3.Animations/Spring/_Spring.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Pixel Word.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Pixel Word.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Materials/ThaleahFat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Materials/ThaleahFat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Materials/ThaleahFat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Materials/ThaleahFat.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Materials/ThaleahFat_TTF.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Materials/Thaleah_DemoBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Materials/Thaleah_DemoBackground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/ThaleahFat.fontsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/ThaleahFat.fontsettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Thaleah_Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Thaleah_Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Thaleah_Readme.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/4.Fonts/Thaleah_PixelFont/Thaleah_Readme.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_10.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_10.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_100.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_100.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_101.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_101.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_102.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_102.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_103.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_103.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_104.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_104.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_105.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_105.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_106.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_106.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_107.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_107.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_108.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_108.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_109.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_109.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_11.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_11.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_110.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_110.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_111.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_111.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_112.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_112.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_113.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_113.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_114.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_114.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_115.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_115.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_116.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_116.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_117.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_117.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_118.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_118.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_119.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_119.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_12.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_12.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_120.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_120.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_121.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_121.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_122.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_122.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_123.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_123.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_124.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_124.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_125.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_125.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_126.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_126.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_127.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_127.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_128.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_128.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_129.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_129.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_13.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_13.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_130.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_130.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_131.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_131.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_132.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_132.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_133.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_133.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_134.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_134.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_135.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_135.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_136.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_136.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_137.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_137.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_138.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_138.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_139.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_139.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_14.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_14.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_140.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_140.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_141.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_141.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_142.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_142.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_143.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_143.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_144.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_144.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_145.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_145.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_146.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_146.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_147.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_147.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_148.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_148.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_149.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_149.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_15.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_15.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_150.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_150.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_151.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_151.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_152.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_152.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_153.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_153.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_154.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_154.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_155.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_155.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_156.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_156.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_157.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_157.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_158.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_158.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_159.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_159.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_16.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_16.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_160.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_160.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_161.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_161.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_162.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_162.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_163.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_163.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_164.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_164.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_165.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_165.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_166.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_166.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_167.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_167.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_168.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_168.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_169.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_169.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_17.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_17.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_170.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_170.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_171.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_171.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_172.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_172.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_173.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_173.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_174.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_174.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_175.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_175.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_176.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_176.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_177.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_177.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_178.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_178.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_179.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_179.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_18.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_18.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_180.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_180.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_181.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_181.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_182.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_182.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_183.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_183.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_184.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_184.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_185.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_185.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_186.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_186.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_187.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_187.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_188.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_188.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_189.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_189.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_19.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_19.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_190.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_190.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_191.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_191.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_192.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_192.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_193.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_193.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_194.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_194.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_195.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_195.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_196.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_196.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_197.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_197.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_198.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_198.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_199.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_199.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_20.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_20.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_200.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_200.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_201.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_201.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_202.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_202.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_203.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_203.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_204.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_204.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_205.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_205.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_206.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_206.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_207.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_207.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_208.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_208.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_209.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_209.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_21.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_21.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_210.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_210.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_211.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_211.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_212.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_212.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_213.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_213.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_214.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_214.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_215.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_215.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_216.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_216.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_217.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_217.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_218.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_218.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_219.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_219.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_22.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_22.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_220.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_220.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_221.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_221.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_222.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_222.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_223.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_223.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_224.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_224.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_225.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_225.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_226.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_226.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_227.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_227.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_228.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_228.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_229.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_229.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_23.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_23.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_230.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_230.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_231.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_231.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_232.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_232.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_233.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_233.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_234.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_234.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_235.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_235.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_236.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_236.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_237.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_237.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_238.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_238.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_239.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_239.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_24.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_24.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_240.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_240.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_241.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_241.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_242.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_242.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_243.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_243.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_244.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_244.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_245.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_245.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_246.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_246.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_247.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_247.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_248.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_248.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_249.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_249.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_25.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_25.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_250.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_250.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_251.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_251.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_252.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_252.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_253.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_253.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_254.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_254.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_255.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_255.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_26.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_26.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_27.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_27.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_28.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_28.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_29.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_29.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_30.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_30.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_31.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_31.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_32.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_32.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_33.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_33.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_34.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_34.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_35.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_35.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_36.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_36.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_37.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_37.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_38.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_38.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_39.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_39.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_40.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_40.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_41.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_41.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_42.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_42.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_43.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_43.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_44.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_44.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_45.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_45.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_46.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_46.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_47.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_47.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_48.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_48.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_49.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_49.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_5.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_50.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_50.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_51.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_51.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_52.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_52.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_53.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_53.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_54.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_54.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_55.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_55.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_56.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_56.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_57.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_57.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_58.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_58.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_59.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_59.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_60.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_60.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_61.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_61.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_62.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_62.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_63.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_63.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_64.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_64.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_65.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_65.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_66.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_66.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_67.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_67.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_68.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_68.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_69.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_69.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_70.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_70.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_71.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_71.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_72.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_72.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_73.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_73.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_74.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_74.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_75.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_75.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_76.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_76.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_77.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_77.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_78.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_78.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_79.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_79.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_80.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_80.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_81.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_81.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_82.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_82.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_83.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_83.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_84.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_84.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_85.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_85.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_86.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_86.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_87.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_87.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_88.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_88.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_89.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_89.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_90.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_90.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_91.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_91.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_92.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_92.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_93.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_93.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_94.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_94.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_95.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_95.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_96.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_96.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_97.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_97.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_98.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_98.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_99.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Atlas/atlas2_99.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Rule Blocks.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Celeste Rule Blocks.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Glass Block.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Glass Block.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Snow Block.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Snow Block.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Square.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/5.Palettes/Square.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/6.Others.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/6.Others/Physics Material 2D.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/6.Others/Physics Material 2D.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/7.Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/7.Shaders/SpriteShadow.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/7.Shaders/SpriteShadow.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/7.Shaders/SpritesNormal.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/7.Shaders/SpritesNormal.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/8.Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/8.Materials/A-Normal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/8.Materials/A-Normal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/8.Materials/A-Obstacle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/8.Materials/A-Obstacle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/9.Presets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/9.Presets/SpriteRenderer.preset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/9.Presets/SpriteRenderer.preset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/C_FixedUpdateParticles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/C_FixedUpdateParticles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/E_Snow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/E_Snow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Event.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Event.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Field.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Field.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Inspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Inspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Operation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Operation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Property.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Property.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_SceneGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_SceneGUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Brush.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Brush.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Eraser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Eraser.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Pencil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Pencil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/SelectTool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/SelectTool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/03_Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/03_Utils/MapElementArray2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/03_Utils/MapElementArray2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_MapElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_MapElement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map_Editor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map_Editor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/S_MapManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/S_MapManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/02_Balloon.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/02_Balloon.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/02_Balloon/C_Balloon_ResumeDashCount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/02_Balloon/C_Balloon_ResumeDashCount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/02_Balloon/C_Balloon_ResumeDashCount.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/02_Balloon/C_Balloon_ResumeDashCount.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/02_Balloon/E_Balloon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/02_Balloon/E_Balloon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/02_Balloon/E_Balloon.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/02_Balloon/E_Balloon.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/03_Spring.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/C_AutoSpringType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/03_Spring/C_AutoSpringType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/C_AutoSpringType.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/03_Spring/C_AutoSpringType.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/C_EjectPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/03_Spring/C_EjectPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/C_EjectPlayer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/03_Spring/C_EjectPlayer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/C_SpringAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/03_Spring/C_SpringAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/C_SpringAnimator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/03_Spring/C_SpringAnimator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/E_Spring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/03_Spring/E_Spring.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/03_Spring/E_Spring.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/03_Spring/E_Spring.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/04_MovePlatform.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform/C_GrabOrReleaseChild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/04_MovePlatform/C_GrabOrReleaseChild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform/C_GrabOrReleaseChild.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/04_MovePlatform/C_GrabOrReleaseChild.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform/C_LoopMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/04_MovePlatform/C_LoopMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform/C_LoopMove.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/04_MovePlatform/C_LoopMove.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform/E_MovePlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/04_MovePlatform/E_MovePlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/04_MovePlatform/E_MovePlatform.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/04_MovePlatform/E_MovePlatform.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/05_Strawberry.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/05_Strawberry.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/05_Strawberry/E_Strawberry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/05_Strawberry/E_Strawberry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/05_Strawberry/E_Strawberry.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/05_Strawberry/E_Strawberry.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/06_DestructiveBlock.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/06_DestructiveBlock.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/06_DestructiveBlock/C_BeDestroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/06_DestructiveBlock/C_BeDestroy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/06_DestructiveBlock/C_BeDestroy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/06_DestructiveBlock/C_BeDestroy.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/06_DestructiveBlock/E_DestructiveBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/06_DestructiveBlock/E_DestructiveBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/06_DestructiveBlock/E_DestructiveBlock.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/06_DestructiveBlock/E_DestructiveBlock.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/07_SharpPoint.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/07_SharpPoint.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/07_SharpPoint/SharpPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/07_SharpPoint/SharpPoint.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/07_SharpPoint/E_SharpPoint.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/08_Platform.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/01_Platform.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/08_Platform/Platform.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/08_Platform/Platform.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/01_Platform/E_Platform.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectPencil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectPencil.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush_Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush_Event.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Eraser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Eraser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pencil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pencil.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pointer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Event.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_GUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_GUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Utility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Utility.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTileMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTileMap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTileArray2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTileArray2D.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,60 +748,55 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/EX_Collider2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F28216F-EA9F-453A-BF2E-05B770ED3EE4/d8/04cc9029/SceneView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectEraser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_GUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_ExampleTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectPencil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/03_Spring/E_Spring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/02_Balloon/C_Balloon_ResumeDashCount.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/02_Balloon/E_Balloon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Field.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/01_File.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/01_Platform/E_Platform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/E_Snow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/05_Strawberry/E_Strawberry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/07_SharpPoint/E_SharpPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/C_FixedUpdateParticles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/02_Unity/EX_Vector2Int.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/06_Math/Tool_Grid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Eraser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/04_MovePlatform/E_MovePlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/C_Gravity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/06_DestructiveBlock/E_DestructiveBlock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/S_GlobalGravity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTileArray2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/02_HSpeedUp/C_HSpeedUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pencil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/C_ColliderTag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/01_Common/C_EmptyBoxCollider2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/EX_Collider2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/C_ColliderChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Utility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTileMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectEraser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/SelectTool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush_Event.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Pencil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/02_Brush/Brush.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/03_Utils/MapElementArray2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/02_Unity/EX_Vector2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Event.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_GUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_Inspector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabPalette.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/03_PrefabTileMapEditor/PrefabTileMapEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/01_MapEditor/MapEditor_SceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_ExampleTile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_SceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectPencil.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Field.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/01_File.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/06_BugColliderChecker/BugColliderChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Event.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/04_Extension/02_Unity/EX_Vector2Int.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/06_Math/Tool_Grid.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Eraser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pointer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/C_Gravity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/S_GlobalGravity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTileArray2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectBrush.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/03_PrefabTileMapEditor/PrefabTileMapEditor_SceneGUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/02_HSpeedUp/C_HSpeedUp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_MapElement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pencil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/01_Map/E_Map.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/04_ColliderChecker/C_ColliderTag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/01_Common/C_EmptyBoxCollider2D.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/02_HSpeedUp/C_HSpeedUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/S_GlobalGravity.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/07_Physics/01_Gravity/C_Gravity.cs" />
-        <option value="$PROJECT_DIR$/Assets/Casuak/Plugins/01_PrefabTileMap/PrefabPaletteWindow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Casuak/Plugins/01_PrefabTileMap/PrefabTileMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Casuak/Plugins/01_PrefabTileMap/PrefabTile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/tr.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/03_Player/02_Other/06_BugColliderChecker/BugColliderChecker.cs" />
@@ -114,20 +822,32 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Field.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/05_MyTool/06_Math/Tool_Grid.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTileArray2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_SceneGUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Brush_Event.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectBrush.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Eraser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pointer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Utility.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_Event.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTileMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow_GUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_Env/02_Balloon/E_Balloon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/02_Balloon/E_Balloon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/07_SharpPoint/SharpPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/08_Platform/Platform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/C_FixedUpdateParticles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/04_Effect/02_Snow/E_Snow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/PrefabTileArray2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/E_PrefabTileMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/Pencil.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/01_Brush/01_RectBrush/RectPencil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/03_Spring/E_Spring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/04_MovePlatform/E_MovePlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/05_Strawberry/E_Strawberry.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/06_DestructiveBlock/E_DestructiveBlock.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/07_SharpPoint/E_SharpPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/02_Modules/05_PrefabTile/08_Platform/E_Platform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TinyCeleste/06_Plugins/01_PrefabTileMap/02_PrefabPaletteWindow/PrefabPaletteWindow.cs" />
       </list>
     </option>
   </component>
@@ -191,7 +911,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583986670021</updated>
       <workItem from="1583986677120" duration="17333000" />
-      <workItem from="1584253955431" duration="62512000" />
+      <workItem from="1584253955431" duration="68417000" />
     </task>
     <task id="LOCAL-00001" summary="PrefabTileMap v1.0">
       <created>1584460507776</created>
@@ -200,7 +920,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584460507776</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PrefabTileMap v1.1">
+      <created>1584542197229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584542197229</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +951,8 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="PrefabTileMap v1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="PrefabTileMap v1.0" />
+    <MESSAGE value="PrefabTileMap v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="PrefabTileMap v1.1" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1493" height="251" key="GridCell.Tab.0.bottom" />

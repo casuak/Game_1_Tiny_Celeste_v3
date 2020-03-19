@@ -279,7 +279,7 @@
           </e>
         </e>
         <e p="Resources" t="Include">
-          <e p="7.Shaders" t="Include">
+          <e p="07.Shaders" t="Include">
             <e p="SpriteShadow.shader" t="Include" />
             <e p="SpritesNormal.shader" t="Include" />
           </e>
@@ -375,30 +375,9 @@
                   <e p="E_Snow.cs" t="Include" />
                 </e>
               </e>
-              <e p="05_Env" t="Include">
-                <e p="01_Map" t="Include">
-                  <e p="01_MapEditor" t="Include">
-                    <e p="MapEditor.cs" t="Include" />
-                    <e p="MapEditor_Event.cs" t="Include" />
-                    <e p="MapEditor_Field.cs" t="Include" />
-                    <e p="MapEditor_Inspector.cs" t="Include" />
-                    <e p="MapEditor_Operation.cs" t="Include" />
-                    <e p="MapEditor_Property.cs" t="Include" />
-                    <e p="MapEditor_SceneGUI.cs" t="Include" />
-                  </e>
-                  <e p="02_Brush" t="Include">
-                    <e p="Brush.cs" t="Include" />
-                    <e p="Eraser.cs" t="Include" />
-                    <e p="Pencil.cs" t="Include" />
-                    <e p="SelectTool.cs" t="Include" />
-                  </e>
-                  <e p="03_Utils" t="Include">
-                    <e p="MapElementArray2.cs" t="Include" />
-                  </e>
-                  <e p="E_Map.cs" t="Include" />
-                  <e p="E_Map_Editor.cs" t="Include" />
-                  <e p="E_MapElement.cs" t="Include" />
-                  <e p="S_MapManager.cs" t="Include" />
+              <e p="05_PrefabTile" t="Include">
+                <e p="01_Platform" t="Include">
+                  <e p="E_Platform.cs" t="Include" />
                 </e>
                 <e p="02_Balloon" t="Include">
                   <e p="C_Balloon_ResumeDashCount.cs" t="Include" />
@@ -423,10 +402,7 @@
                   <e p="E_DestructiveBlock.cs" t="Include" />
                 </e>
                 <e p="07_SharpPoint" t="Include">
-                  <e p="SharpPoint.cs" t="Include" />
-                </e>
-                <e p="08_Platform" t="Include">
-                  <e p="Platform.cs" t="Include" />
+                  <e p="E_SharpPoint.cs" t="Include" />
                 </e>
               </e>
               <e p="06_GM" t="Include">
